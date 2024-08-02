@@ -1,0 +1,32 @@
+.board {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.column {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 30%;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.column h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: grab;
+}
